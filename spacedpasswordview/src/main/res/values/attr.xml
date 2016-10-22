@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomPasswordView">
+        <attr name="cpvTextColor" format="color|reference" />
+        <attr name="cpvTextSize" format="dimension" />
+
+        <attr name="cpvNeedCursor" format="boolean" />
+        <!-- 定义每个密码输入框之间的间距-->
+        <attr name="cpvSpaceWeight" format="float" />
+        <attr name="cpvNeedSpace" format="boolean" />
+        <attr name="cpvSpaceColor" format="color" />
+
+        <attr name="cpvLineColor" format="color" />
+        <attr name="cpvGridColor" format="color" />
+        <attr name="cpvLineWidth" format="dimension" />
+
+        <attr name="cpvPasswordLength" format="integer" />
+        <attr name="cpvPasswordTransformation" format="string" />
+
+        <attr name="cpvPasswordType" format="enum">
+            <enum name="numberPassword" value="0" />
+            <enum name="textPassword" value="1" />
+            <enum name="textVisiblePassword" value="2" />
+            <enum name="textWebPassword" value="3" />
+        </attr>
+    </declare-styleable>
+</resources>
