@@ -1,4 +1,7 @@
 # SpacedPasswordView
+
+![image](https://github.com/alexwtw/SpacedPasswordView/blob/master/verify_code.gif)
+
 ## Intrduction
 This project is based on [Jungerr/GridPasswordView](https://github.com/Jungerr/GridPasswordView).make some custom changes,like the space between grids.
 
@@ -25,3 +28,9 @@ This project is based on [Jungerr/GridPasswordView](https://github.com/Jungerr/G
         app:cpvLineWidth="2dp"
         app:cpvNeedSpace="true" />
 ```
+
+##Other
+If you use this library in your app, please let me know : jungly.ik@gmail.com
+##Contributing
+
+Yes:) If you found a bug, have an idea how to improve library or have a question, please create new issue or comment existing one. If you would like to contribute code fork the repository and send a pull request.
