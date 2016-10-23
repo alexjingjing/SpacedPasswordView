@@ -190,6 +190,8 @@ public class SpacedPasswordView extends FrameLayout {
         return mCustomPasswordView.getPassWord();
     }
 
+    public void clearPassword() {mCustomPasswordView.clearPassword();}
+
     public void setPasswordListener(CustomListener mListener) {
         this.mListener = mListener;
     }
